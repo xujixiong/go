@@ -41,5 +41,10 @@ int main(){
 	for(int i = 0; i < 10; i++){
 		printf("%d ",a[i]);
 	} 
+	int b[10] = {9,8,7,6,5,4,3,2,1,0};
+	quickSort(b,0,9);
+	for(int i = 0; i < 10; i++){
+		printf("%d ",b[i]);
+	}
 	return 0;
 } 
